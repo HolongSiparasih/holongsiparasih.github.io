@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Holong Siparasih - Robusta Coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="img/assets/logo-hs.jpeg">
+    <!-- Stlylesheet -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/no-ui-slider/jquery.nouislider.css" type="text/css" />
+    
+    <!-- Skin Color -->
+    <link rel="stylesheet" href="css/colors/green.css" id="color-skins"/>
+<style>
+   /* Custom Styles */
+   #contact {
+      padding: 60px 0;
+      text-align: center;
+   }
+   #contact h3.section-title {
+      font-size: 30px;
+      color: #203f7a;
+      font-weight: bold;
+      margin-bottom: 20px;
+   }
+   #contact p.subheading {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 30px;
+   }
+   #contact .contact-info {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+   }
+   #contact .contact-info div {
+      text-align: center;
+      padding: 10px;
+   }
+   #contact .contact-info i {
+      font-size: 30px;
+      color: #52c5b8;
+      margin-bottom: 10px;
+   }
+   #contact .contact-info h5 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+   }
+   #contact .contact-info p {
+      font-size: 14px;
+      color: #666;
+   }
+   #contact .map {
+      margin: 20px 0;
+      height: 300px;
+   }
+   #contact form input[type="text"],
+   #contact form input[type="email"],
+   #contact form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+   }
+   #contact form input[type="submit"] {
+      background-color: #203f7a;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+   }
+</style>
+</head>
+<body>
+    
+     <header>
+        <nav class="navbar navbar-default" role="navigation">
+           <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 </button>
+                 <a class="navbar-brand to-top" rel="home" href="#">
+                    <img src="img/assets/logo-hs2.png" alt="Visual" class="logo-big">
+                    <img src="img/assets/logo-hs2.png" alt="Visual" class="logo-small">
+                 </a>
+              </div>
+              
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="main-nav">
+                 <ul class="nav navbar-nav  navbar-right">
+                    <li class="to-section">
+                        <a href="index.html">
+                           Home
+                        </a>
+                     </li>
+                   <li class="to-section">
+                      <a href="about.html">
+                         About Us
+                      </a>
+                   </li>
+                   <li class="to-section">
+                      <a href="product.html">
+                         Product
+                      </a>
+                   </li>
+                   <li class="to-section">
+                      <a href="contact.html">
+                         Contact Us
+                      </a>
+                   </li>
+                 </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+           </div>
+           <!-- /.container -->
+        </nav>
+     </header>
+<!-- Start Contact Form Section -->
+<section id="contact">
+   <div class="container">
+      <h3 class="section-title">Contact Us</h3>
+      <p class="subheading">Let's Work Together.</p>
+      
+      <!-- Contact Info Section -->
+      <div class="contact-info">
+         <div>
+            <i class="fa fa-map-marker"></i>
+            <h5>Address</h5>
+            <p>JL lintas Sumatra Panjang, <br>Kec Teluk Betung Selatan <br>kota Bandar Lampung, 35245</p>
+         </div>
+         <div>
+            <i class="fa fa-phone"></i>
+            <h5>Phone Number</h5>
+            <p>+6285259245222 </p>
+         </div>
+         <div>
+            <i class="fa fa-envelope"></i>
+            <h5>Email</h5>
+            <p>ihsiparasih@gmail.com</p>
+         </div>
+      </div>
+      
+      <!-- Google Map Section -->
+      <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100018.49620696565!2d105.29940808461203!3d-5.322393270153037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40dc0a0c3b8a93%3A0xe9a77a63a8960e4f!2sJl%20Lintas%20Sumatra%20Panjang%2C%20Kec%20Teluk%20Betung%20Selatan%2C%20Kota%20Bandar%20Lampung%2C%2035245%2C%20Indonesia!5e0!3m2!1sen!2sin!4v1602106826796!5m2!1sen!2sin" 
+        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>S
+      </div>
+      
+      <!-- Contact Form -->
+      <form method="post" action="php/contact-form.php.htm" name="contactform" id="contactform">
+         <input name="name" type="text" id="name" placeholder="Your Name"/>
+         <input name="email" type="email" id="email" placeholder="Your Email"/>
+         <input name="subject" type="text" id="subject" placeholder="Subject"/>
+         <textarea name="comments" cols="40" rows="3" id="comments" placeholder="Message"></textarea>
+         <input type="submit" class="submit" id="submit" value="Send Message" />
+      </form>
+   </div>
+</section>
+<!-- End Contact Form Section -->
+
+<footer id="footer">
+    <!-- End Footer Widgets -->
+    
+    <div class="footer-copyright">
+       <div class="container">
+          <div class="row">
+             <div class="col-md-12 text-center">
+               <p class="wow fadeInUp"> &copy; 2024 HOLONG SIPARASIH. All Rights Reserved.</p>                </p>
+                <ul class="social-icons subheading">
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-twitter"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-facebook"></i>
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                         <i class="icon ion-social-instagram-outline"></i>
+                      </a>
+                </ul>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!-- End Footer Copyright -->
+    
+ </footer>
+ <!-- End Footer 1 -->
+ 
+ <!-- Start Back To Top -->
+ <a id="back-to-top">
+    <i class="icon ion-chevron-up"></i>
+ </a>
+ <!-- End Back To Top -->
+
+
+<script type="text/javascript" src="js/plugins/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/plugins/moderniz.min.js"></script>
+<script type="text/javascript" src="js/plugins/smoothscroll.min.js"></script>
+<script type="text/javascript" src="js/no-ui-slider/jquery.nouislider.all.min.js"></script>
+<script type="text/javascript" src="js/plugins/revslider.min.js"></script>
+<script type="text/javascript" src="js/plugins/waypoints.min.js"></script>
+<script type="text/javascript" src="js/plugins/parallax.min.js"></script>
+<script type="text/javascript" src="js/plugins/easign1.3.min.js"></script>
+<script type="text/javascript" src="js/plugins/cubeportfolio.min.js"></script>
+<script type="text/javascript" src="js/plugins/owlcarousel.min.js"></script>
+<script type="text/javascript" src="js/plugins/tweetie.min.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="js/plugins/gmap3.min.js"></script>
+<script type="text/javascript" src="js/plugins/wow.min.js"></script>
+<script type="text/javascript" src="js/plugins/counterup.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
